@@ -2,9 +2,9 @@ const productos = [
   // Productos de la categoría Baño
   {
     id: "bano 1",
-    nombre: "Producto Baño 1",
+    nombre: "Cesto Premium De Ropa",
     marca: "MarcaBaño",
-    precio: 50,
+    precio: 25000,
     imagen: "../img/baño/cesto01.jpg",
     categoria: {
       nombre: "Baño",
@@ -13,9 +13,9 @@ const productos = [
   },
   {
     id: "bano 2",
-    nombre: "Producto Baño 2",
+    nombre: "Cesto de Tela",
     marca: "MarcaBaño",
-    precio: 60,
+    precio: 17000,
     imagen: "../img/baño/cesto02.jpg",
     categoria: {
       nombre: "Baño",
@@ -24,9 +24,9 @@ const productos = [
   },
   {
     id: "bano 3",
-    nombre: "Producto Baño 3",
+    nombre: "Cesto de Ropa Alta Calidad de Plastico",
     marca: "MarcaBaño",
-    precio: 70,
+    precio: 20000,
     imagen: "../img/baño/cesto03.jpg",
     categoria: {
       nombre: "Baño",
@@ -35,9 +35,9 @@ const productos = [
   },
   {
     id: "bano 4",
-    nombre: "Producto Baño 4",
+    nombre: "Cepillo Limpiadro",
     marca: "MarcaBaño",
-    precio: 80,
+    precio: 8000,
     imagen: "../img/baño/limpiador01.jpg",
     categoria: {
       nombre: "Baño",
@@ -46,9 +46,9 @@ const productos = [
   },
   {
     id: "bano 5",
-    nombre: "Producto Baño 5",
+    nombre: "Cepillo Limpiador Premium",
     marca: "MarcaBaño",
-    precio: 90,
+    precio: 12000,
     imagen: "../img/baño/limpiador02.jpg",
     categoria: {
       nombre: "Baño",
@@ -57,9 +57,9 @@ const productos = [
   },
   {
     id: "bano 6",
-    nombre: "Producto Baño 6",
+    nombre: "Cesto Para Ropa",
     marca: "MarcaBaño",
-    precio: 100,
+    precio: 18000,
     imagen: "../img/baño/cesto04.jpg",
     categoria: {
       nombre: "Baño",
@@ -68,9 +68,9 @@ const productos = [
   },
   {
     id: "bano 7",
-    nombre: "Producto Baño 7",
+    nombre: "Jabonera de Cristal",
     marca: "MarcaBaño",
-    precio: 110,
+    precio: 11000,
     imagen: "../img/baño/jabonera01.jpg",
     categoria: {
       nombre: "Baño",
@@ -79,9 +79,9 @@ const productos = [
   },
   {
     id: "bano 8",
-    nombre: "Producto Baño 8",
+    nombre: "Tacho De Basura Premium",
     marca: "MarcaBaño",
-    precio: 120,
+    precio: 16000,
     imagen: "../img/baño/tacho01.jpg",
     categoria: {
       nombre: "Baño",
@@ -91,9 +91,9 @@ const productos = [
   // Productos de la categoría Cocina
   {
     id: "cocina 1",
-    nombre: "Producto Cocina 1",
+    nombre: "Set Cuchillos Acero Inoxidable",
     marca: "MarcaCocina",
-    precio: 130,
+    precio: 40000,
     imagen: "../img/cocina/cuchillos01.jpg",
     categoria: {
       nombre: "Cocina",
@@ -102,9 +102,9 @@ const productos = [
   },
   {
     id: "cocina 2",
-    nombre: "Producto Cocina 2",
+    nombre: "Set de Ollas Antiadherente Premium",
     marca: "MarcaCocina",
-    precio: 140,
+    precio: 140000,
     imagen: "../img/cocina/ollas01.jpg",
     categoria: {
       nombre: "Cocina",
@@ -113,9 +113,9 @@ const productos = [
   },
   {
     id: "cocina 3",
-    nombre: "Producto Cocina 3",
+    nombre: "Sarten Parrillera Antiadherente",
     marca: "MarcaCocina",
-    precio: 150,
+    precio: 30000,
     imagen: "../img/cocina/sarten01.jpg",
     categoria: {
       nombre: "Cocina",
@@ -124,9 +124,9 @@ const productos = [
   },
   {
     id: "cocina 4",
-    nombre: "Producto Cocina 4",
+    nombre: "Sarten Parrillera de Acero Inoxidable",
     marca: "MarcaCocina",
-    precio: 160,
+    precio: 16000,
     imagen: "../img/cocina/sarten02.jpg",
     categoria: {
       nombre: "Cocina",
@@ -135,9 +135,9 @@ const productos = [
   },
   {
     id: "cocina 5",
-    nombre: "Producto Cocina 5",
+    nombre: "Sarten Premium",
     marca: "MarcaCocina",
-    precio: 170,
+    precio: 17000,
     imagen: "../img/cocina/sarten03.jpg",
     categoria: {
       nombre: "Cocina",
@@ -146,9 +146,9 @@ const productos = [
   },
   {
     id: "cocina 6",
-    nombre: "Producto Cocina 6",
+    nombre: "Set de Tazas",
     marca: "MarcaCocina",
-    precio: 180,
+    precio: 16000,
     imagen: "../img/cocina/tazas01.jpg",
     categoria: {
       nombre: "Cocina",
@@ -157,9 +157,9 @@ const productos = [
   },
   {
     id: "cocina 7",
-    nombre: "Producto Cocina 7",
+    nombre: "Sarten Parrillera de Acero Inoxidable Premium",
     marca: "MarcaCocina",
-    precio: 190,
+    precio: 25000,
     imagen: "../img/cocina/sarten04.jpg",
     categoria: {
       nombre: "Cocina",
@@ -168,9 +168,9 @@ const productos = [
   },
   {
     id: "cocina 8",
-    nombre: "Producto Cocina 8",
+    nombre: "Sarten de Acero Inoxidable c/ Espumadera",
     marca: "MarcaCocina",
-    precio: 200,
+    precio: 19000,
     imagen: "../img/cocina/sarten05.jpg",
     categoria: {
       nombre: "Cocina",
@@ -179,9 +179,9 @@ const productos = [
   },
   {
     id: "cocina 9",
-    nombre: "Producto Cocina 9",
+    nombre: "Set de Cubiertos con mango de Madera de Roble",
     marca: "MarcaCocina",
-    precio: 200,
+    precio: 20000,
     imagen: "../img/cocina/tenedores01.jpg",
     categoria: {
       nombre: "Cocina",
@@ -190,9 +190,9 @@ const productos = [
   },
   {
     id: "cocina 10",
-    nombre: "Producto Cocina 10",
+    nombre: "Set de Cubiertos de Acero Inoxidable",
     marca: "MarcaCocina",
-    precio: 200,
+    precio: 26000,
     imagen: "../img/cocina/tenedores02.jpg",
     categoria: {
       nombre: "Cocina",
@@ -201,9 +201,9 @@ const productos = [
   },
   {
     id: "cocina 11",
-    nombre: "Producto Cocina 11",
+    nombre: "Set de Chupitos de Cristal",
     marca: "MarcaCocina",
-    precio: 200,
+    precio: 23000,
     imagen: "../img/cocina/vasos01.jpg",
     categoria: {
       nombre: "Cocina",
@@ -212,9 +212,9 @@ const productos = [
   },
   {
     id: "cocina 12",
-    nombre: "Producto Cocina 12",
+    nombre: "Set de Tazas",
     marca: "MarcaCocina",
-    precio: 200,
+    precio: 12000,
     imagen: "../img/cocina/tazas02.jpg",
     categoria: {
       nombre: "Cocina",
@@ -224,9 +224,9 @@ const productos = [
   // Productos de la categoría Deco
   {
     id: "deco 1",
-    nombre: "Producto Deco 1",
+    nombre: "Perchero para Cuchillos",
     marca: "MarcaDeco",
-    precio: 210,
+    precio: 3300,
     imagen: "../img/deco/deco01.jpg",
     categoria: {
       nombre: "Deco",
@@ -235,9 +235,9 @@ const productos = [
   },
   {
     id: "deco 2",
-    nombre: "Producto Deco 2",
+    nombre: "Cesto de Plastico",
     marca: "MarcaDeco",
-    precio: 220,
+    precio: 6600,
     imagen: "../img/deco/deco02.jpg",
     categoria: {
       nombre: "Deco",
@@ -246,9 +246,9 @@ const productos = [
   },
   {
     id: "deco 3",
-    nombre: "Producto Deco 3",
+    nombre: "Canasto de metal",
     marca: "MarcaDeco",
-    precio: 230,
+    precio: 6300,
     imagen: "../img/deco/deco03.jpg",
     categoria: {
       nombre: "Deco",
@@ -257,9 +257,9 @@ const productos = [
   },
   {
     id: "deco 4",
-    nombre: "Producto Deco 4",
+    nombre: "Alfombra Felpudo 100% Algodon",
     marca: "MarcaDeco",
-    precio: 240,
+    precio: 33330,
     imagen: "../img/deco/setdeco01.jpg",
     categoria: {
       nombre: "Deco",
@@ -268,89 +268,95 @@ const productos = [
   }
 ];
 
+let carritoEnLS = localStorage.getItem('productos');
+let productosEnCarrito = [];
+
+if (carritoEnLS) {
+  productosEnCarrito = JSON.parse(carritoEnLS);
+}
+
+renderCarrito(productosEnCarrito);
 
 const contenedorProductos = document.querySelector("#contenedor-productos");
 const botonesCategorias = document.querySelectorAll(".boton-categoria");
 const tituloPrincipal = document.querySelector("#titulo-principal");
-/* let botonesAgregar = document.querySelectorAll(".producto-agregar");
- */
-function cargarProductos(productosElegidos) {
 
+function cargarProductos(productosElegidos) {
   contenedorProductos.innerHTML = "";
 
   productosElegidos.forEach(producto => {
-
-      const div = document.createElement("div");
-      div.classList.add("producto");
-      div.innerHTML = `
-      <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
+    const div = document.createElement("div");
+    div.classList.add("producto");
+    div.innerHTML = `
+      <img class="producto-imagen" src="${producto.imagen}" alt="${producto.nombre}">
       <div class="producto-detalles">
-          <h3 class="producto-titulo">${producto.titulo}</h3>
-          <p class="producto-precio">$${producto.precio}</p>
-          <button class="producto-agregar" id="${producto.id}">Agregar</button>
-      </div> `;
+        <h3 class="producto-titulo">${producto.nombre}</h3>
+        <p class="producto-precio">$${producto.precio}</p>
+        <button class="producto-agregar" id="${producto.id}">Agregar</button>
+      </div>`;
 
-    contenedorProductos.append(div);
-  
-  })
+    contenedorProductos.appendChild(div);
+  });
 
-/*   actualizarBotonesAgregar(); */
-
+  actualizarBotonesAgregar();
 }
 
 cargarProductos(productos);
 
 botonesCategorias.forEach(boton => {
   boton.addEventListener("click", (e) => {
-
     botonesCategorias.forEach(boton => boton.classList.remove("active"));
-
     e.currentTarget.classList.add("active");
 
-
-    if (e.currentTarget.id != "todos") {
-      const productoCategoria = productos.find(producto => producto.categoria.id === e.currentTarget.id); 
-      tituloPrincipal.innerText = productoCategoria.categoria.nombre;
-
+    if (e.currentTarget.id !== "todos") {
       const productosBoton = productos.filter(producto => producto.categoria.id === e.currentTarget.id);
-  
+      tituloPrincipal.innerText = productosBoton[0].categoria.nombre;
       cargarProductos(productosBoton);
-
-    } else{
-      tituloPrincipal.innerHTML = "Todos los productos";
+    } else {
+      tituloPrincipal.innerText = "Todos los productos";
       cargarProductos(productos);
     }
-
-
-  })
-
+  });
 });
 
 function actualizarBotonesAgregar() {
-  botonesAgregar = document.querySelectorAll(".producto-agregar");
-
+  const botonesAgregar = document.querySelectorAll(".producto-agregar");
 
   botonesAgregar.forEach(boton => {
     boton.addEventListener("click", agregarAlCarrito);
   });
 }
 
-const productosEnCarrito = [];
-
-function agregarAlCarrito(e){
-   const idBoton = e.currentTarget.id;
+function agregarAlCarrito(e) {
+  const idBoton = e.currentTarget.id;
   const productoAgregado = productos.find(producto => producto.id === idBoton);
 
-  if(productosEnCarrito.some(producto => producto.id === idBoton)) {
-  const index =  productosEnCarrito.findIndex(producto => producto.id === idBoton)
-  }else{
-
+  if (productosEnCarrito.some(producto => producto.id === idBoton)) {
+    const index = productosEnCarrito.findIndex(producto => producto.id === idBoton);
+    productosEnCarrito[index].cantidad += 1;
+  } else {
     productoAgregado.cantidad = 1;
     productosEnCarrito.push(productoAgregado);
-
   }
 
-  console.log(productosEnCarrito)
-  
+  console.log(productosEnCarrito);
+}
 
+function renderCarrito(productosEnCarrito) {
+  const contenedorCarrito = document.querySelector("#contenedor-carrito");
+  contenedorCarrito.innerHTML = "";
+
+  productosEnCarrito.forEach(producto => {
+    const div = document.createElement("div");
+    div.classList.add("producto-carrito");
+    div.innerHTML = `
+      <img class="producto-imagen-carrito" src="${producto.imagen}" alt="${producto.nombre}">
+      <div class="producto-detalles-carrito">
+        <h3 class="producto-nombre-carrito">${producto.nombre}</h3>
+        <p class="producto-precio-carrito">$${producto.precio}</p>
+        <p class="producto-cantidad-carrito">Cantidad: ${producto.cantidad}</p>
+      </div>
+    `;
+    contenedorCarrito.appendChild(div);
+  });
 }
