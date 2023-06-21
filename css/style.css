@@ -25,7 +25,7 @@ a {
 .contenedor {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    background-color: blueviolet;
+    background-color: rgb(66, 6, 126);
 }
 
 aside{
@@ -64,12 +64,12 @@ aside{
     font-weight: 600;
     padding: 1rem;
     font-size: 1.1rem;
+    width: 100%;
 }
 
 .boton-menu.active {
     background-color: beige;
     color: #532366;
-    width: 100%;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
     position: relative;
@@ -107,6 +107,11 @@ aside{
     border-radius: .25rem;
 }
 
+.boton-carrito.active .numerito{
+    background-color: #50166d;
+    color: beige;
+}
+
 .texto-footer {
     color: rgb(156, 87, 173);
     font-size: 1rem;
@@ -135,7 +140,7 @@ main{
 
 .producto-imagen {
     max-width: 100%;
-    border-radius: 1rem;
+    border-radius: 3rem;
 }
 
 .producto-detalles{
@@ -144,6 +149,7 @@ main{
     padding: 0.5rem;
     border-radius: 1rem;
     margin-top: -2rem;
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
@@ -181,7 +187,6 @@ main{
 
 .carrito-vacio{
     color: #532366;
-    display: none;
 }
 
 .carrito-productos{
@@ -261,4 +266,9 @@ main{
     cursor: pointer;
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
+}
+
+.disabled {
+    display: flex;
+    display: none;
 }
