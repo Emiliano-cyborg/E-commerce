@@ -268,8 +268,8 @@ const productos = [
   }
 ];
 let carritoEnLS = localStorage.getItem('productos');
-let numerito = JSON.parse(carritoEnLS).length || 0
-document.querySelector(".numerito").textContent=numerito
+/* let numerito = JSON.parse(carritoEnLS).length || 0
+document.querySelector(".numerito").textContent=numerito */
 let productosEnCarrito = [];
 
 if (carritoEnLS) {
@@ -337,8 +337,8 @@ function agregarAlCarrito(e) {
     productoAgregado.cantidad = 1;
     productosEnCarrito.push(productoAgregado);
   }
-  numerito=productosEnCarrito.length
-  document.querySelector(".numerito").textContent=numerito
+  /* numerito=productosEnCarrito.length
+  document.querySelector(".numerito").textContent=numerito */
   actualizarCarritoLocalStorage();
   
 }
