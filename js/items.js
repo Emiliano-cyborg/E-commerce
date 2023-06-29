@@ -268,8 +268,12 @@ const productos = [
   }
 ];
 let carritoEnLS = localStorage.getItem('productos');
-/* let numerito = JSON.parse(carritoEnLS).length || 0
-document.querySelector(".numerito").textContent=numerito */
+/* let numerito = JSON.parse(carritoEnLS).length || 0 */
+
+let numerito = document.querySelector(".numerito")
+let cantCarrito = 0
+
+
 let productosEnCarrito = [];
 
 if (carritoEnLS) {
@@ -333,12 +337,15 @@ function agregarAlCarrito(e) {
   if (productosEnCarrito.some(producto => producto.id === idBoton)) {
     const index = productosEnCarrito.findIndex(producto => producto.id === idBoton);
     productosEnCarrito[index].cantidad += 1;
+    cantCarrito ++
+    localStorage.setItem("numerito", cantCarrito)
   } else {
     productoAgregado.cantidad = 1;
     productosEnCarrito.push(productoAgregado);
+    cantCarrito ++
+    localStorage.setItem("numerito", cantCarrito)
   }
-  /* numerito=productosEnCarrito.length
-  document.querySelector(".numerito").textContent=numerito */
+  numerito.textContent = cantCarrito
   actualizarCarritoLocalStorage();
   
 }
