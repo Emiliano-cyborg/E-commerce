@@ -347,7 +347,12 @@ function agregarAlCarrito(e) {
   }
   numerito.textContent = cantCarrito
   actualizarCarritoLocalStorage();
-  
+
+  Swal.fire({
+    icon: 'success',
+    title: '¡Producto agregado!',
+    text: 'El producto se ha agregado correctamente al carrito.',
+  });
 }
 
 
