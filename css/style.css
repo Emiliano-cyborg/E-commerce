@@ -291,7 +291,7 @@ main {
 }
 
 /* Estilos responsive */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 325px) {
   .contenedor {
     grid-template-columns: 1fr;
   }
