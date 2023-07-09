@@ -91,7 +91,7 @@
   }
 }
 
-  function accionesComprar() {
+function accionesComprar() {
   const botonComprar = document.querySelector(".carrito-acciones-comprar");
   const carrito = document.querySelector("#contenedor-carrito");
 
@@ -102,10 +102,12 @@
     }).then((result) => {
       if (result.isConfirmed) {
         carrito.innerHTML = "";
+        localStorage.clear();
       }
     });
   });
 }
+
 
 accionesComprar();
 
