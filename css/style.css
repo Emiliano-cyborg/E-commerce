@@ -251,7 +251,7 @@ main {
   margin-top: 20px;
 }
 
-/* Estilos específicos para el producto en el carrito */
+
 .producto-imagen {
   max-width: 100%;
   border-radius: 3rem;
@@ -290,8 +290,7 @@ main {
   color: beige;
 }
 
-/* Estilos responsive */
-@media screen and (max-width: 758px) {
+@media screen and (max-width: 758px){
   .contenedor {
     grid-template-columns: 1fr;
   }
